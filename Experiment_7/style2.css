@@ -1,0 +1,39 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+.block-menu a{
+    display: block;
+    background-color: blueviolet;
+    color: azure;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration-style: wavy;
+}
+h1{
+    text-align: center;
+}
+.inline-menu a{
+    display: inline;
+    background-color: aqua;
+    color: azure;
+    padding:15px;
+    margin: 5px;
+    text-decoration: wavy;
+}
+.inline-block-menu a{
+    display: inline-block;
+    background-color: rgba(243, 85, 37, 0.89);
+    color: azure;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: wavy;
+}
+.float-menu a{
+    float: left;
+    background-color: rgb(233, 125, 143);
+    color: azure;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: wavy;
+}
