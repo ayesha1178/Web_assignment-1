@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(157, 243, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+
+}
+h1{
+    font-variant-emoji: emoji;
+    text-align: center;
+    background: hsl(273, 51%, 59%);
+    text-decoration: wavy;
+}
+.para-graph
+{
+    background:rgb(252, 250, 131)
+    text-align: center;
+    text-decoration: wavy;
+}
+.highlight{
+    color: blue;
+}
+#special{
+    color: red;
+    font-weight: bold;
+}
+.product{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+p{
+    display: block;
+    background: rgb(85, 200, 238);
+}
+span{
+    display: inline;
+    background: rgb(105, 243, 105);
+}   
