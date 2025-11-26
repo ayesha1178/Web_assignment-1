@@ -13,3 +13,14 @@ body {
     gap: 60px;
     flex-wrap: wrap;    
 }
+.card{
+    width: 260px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    text-align: center;   
+    padding: 25px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+
+}
