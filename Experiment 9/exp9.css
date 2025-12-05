@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(253, 214, 221);
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    gap: 25px;
+    padding: 20px;
+    width: 100%;
+}
+
+.product-card{
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255,105,130,0.4);
+}
+
+.product-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px;
+}
+
+.product-card h3{
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+
+.price{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 15px;
+    background: rgb(255, 105, 130);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background: hotpink;
+}
